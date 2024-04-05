@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    border: none;
+    width: 200px;
+    padding: 15px;
+    background: #32425b;
+}
+form{
+    display: grid;
+}
+h2{
+    text-align: center;
+    margin: 0 0 15px 0;
+    color: white;
+}
+label{
+    color: white;
+}
+input{
+    width: 100%;
+    margin-bottom: 15px;
+    background: #32425b;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+}
+input[type="password"]{
+    margin-bottom: 25px;
+}
+input[type="submit"]{
+    margin: 0;
+    background: #1ed5b9;
+    border: 1px solid #1ed5b9;
+    color: #32425b;
+    cursor: pointer;
+}
